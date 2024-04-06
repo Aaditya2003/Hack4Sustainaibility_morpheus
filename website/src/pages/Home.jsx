@@ -17,7 +17,7 @@ export default function Home() {
                         </div>
                         <div className="m-5 border w-1/3 rounded-xl p-5 shadow-md flex flex-col items-center">
                             <h1 className="text-xl font-bold ">Climate</h1>
-                            <img src={sunny} alt="" width={150}/>
+                            <img src={sunny} alt="" width={150} />
                         </div>
                     </div>
                     <div className="flex">
@@ -27,8 +27,8 @@ export default function Home() {
                             <p className="text-medium">Fertilizer B: <span className="text-green-600">56%</span></p>
                         </div>
                         <div className="w-2/3 m-10 border rounded-xl p-10 shadow-md">
-                            chatgpt analysis
-                            and predictions
+                            <h1 className="text-xl font-bold">Predictions</h1>
+                            Based on soil contents, predictions for agriculture include favorable conditions for crops like corn in nitrogen-rich soils, blueberries in acidic pH levels, beans in phosphorus-rich soils, potatoes in potassium-rich soils, and consideration of salinity for crop selection, such as avoiding spinach in high-salinity areas.
                         </div>
                     </div>
                 </div>
